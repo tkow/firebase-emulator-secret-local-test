@@ -14,6 +14,7 @@ In addition, .env.local have unavailable characters like  '-',  crush starting e
 Clone this project and run
 
 ```
+npm i
 npm run start
 ```
 
