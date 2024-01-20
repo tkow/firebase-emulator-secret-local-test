@@ -25,7 +25,7 @@ First, you'll see a followed by error occurs,
 ⬢  functions: Failed to load function definition from source: FirebaseError: Failed to load environment variables from .env.local.
 ```
 
-### Expected　Behavior
+### Expected Behavior
 
 Using accepted character names in .env.local work correctory, so it should work to use characters secret manager accepts, too.
 
@@ -40,6 +40,6 @@ curl -X POST -H "content-type: application/json" "http://localhost:5001/demo-pro
 
 You'll see `FROM ENV` string in your emulator log.
 
-Next, you replace .secret.local contents with .secret.local.work's and trigger the emulated task queue function int the prevrious way.
+Next, replace .secret.local contents with .secret.local.work's and trigger the emulated task queue function int the prevrious way.
 
 You'll see `FROM SECRET` string in your emulator log.
