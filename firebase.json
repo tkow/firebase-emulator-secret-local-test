@@ -1,0 +1,10 @@
+{
+  "$schema": "./node_modules/firebase-tools/schema/firebase-config.json",
+  "functions": {
+    "runtime": "nodejs18",
+    "source": "./dist",
+    "predeploy": [
+      "npm run deploy:prepare"
+    ]
+  }
+}
