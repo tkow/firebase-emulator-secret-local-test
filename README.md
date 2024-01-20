@@ -1,5 +1,5 @@
 
-This is demonstration that .secret.env cannot contain variable name thant secret name accepts but dotenv don't .
+This is demonstration that .secret.env cannot contain variable name that secret name accepts but dotenv don't .
 
 ## Summary
 
