@@ -4,7 +4,7 @@ This is demonstration that .secret.env cannot contain variable name that secret 
 ## Summary
 
 If you don't prepare .env.local firebase emulator can't load secrect value even though you locate .secret.local in deployed folder,
-and request secret manager API of google services.
+and emulator try to request secret manager API of google services.
 In addition, .env.local have unavailable characters like  '-',  crush starting emulator.
 
 ## Demo
