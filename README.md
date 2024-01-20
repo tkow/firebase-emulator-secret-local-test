@@ -40,6 +40,6 @@ curl -X POST -H "content-type: application/json" "http://localhost:5001/demo-pro
 
 You'll see `FROM ENV` string in your emulator log.
 
-Next, replace .secret.local contents with .secret.local.work's and trigger the emulated task queue function int the prevrious way.
+Next, replace .secret.local contents with .secret.local.work's and trigger the emulated task queue function in the prevrious way.
 
 You'll see `FROM SECRET` string in your emulator log.
